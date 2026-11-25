@@ -89,13 +89,13 @@ Since the Spring Boot application runs locally, a tunnel is required to expose t
 With the Spring Boot application running, open a new terminal and execute:
 
 ```bash
-cloudflared tunnel --url http://localhost:8080/mcp
+cloudflared tunnel --url http://localhost:8080
 ```
 
 Cloudflared will generate a publicly accessible URL, typically in the following format:
 
 ```text
-https://your-random-subdomain.trycloudflare.com
+https://your-random-subdomain.trycloudflare.com/mcp
 ```
 
 Keep this terminal running while using Claude. The tunnel must remain active for Claude to communicate with your local application.
