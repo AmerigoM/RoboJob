@@ -69,10 +69,10 @@ You can use Postman to interact with the API and perform the following operation
 
 | HTTP Method | Endpoint | Description |
 |---|---|---|
-| GET | `/jobApplications` | Retrieve all job application records |
-| POST | `/jobApplication` | Add a new job application |
-| PUT | `/jobApplication/{id}` | Modify an existing job application |
-| DELETE | `/jobApplications/{id}` | Remove a job application |
+| GET | `/api/jobApplications` | Retrieve all job application records |
+| POST | `/api/jobApplication` | Add a new job application |
+| PUT | `/api/jobApplication/{id}` | Modify an existing job application |
+| DELETE | `/api/jobApplications/{id}` | Remove a job application |
 
 Configure your Postman requests to target the appropriate API endpoints running on `localhost:8080`.
 
